@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tienda Fun Animals</title>
+    <link rel="stylesheet" type="text/css" href="../Fun Animals/assets/css/tienda.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <script src="../Fun Animals/assets/js/tienda.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Fun animals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link disabled">Mapa</a>
+                    <a class="nav-link disabled">Ayudas</a>
+                    <a class="nav-link" href="veterinarias.html">Veterinarias</a>
+                    <a class="nav-link" href="tienda.html">Tienda</a>
+                    <a class="nav-link" href="redessociales.html">Red Social</a>
+                    <a class="nav-link" href="eventos.html">Eventos</a>
+                    <a class="nav-link" href="login.html">Iniciar sesión</a>
+                </div>
+                <div class="ms-auto">
+                    <div class="search-bar">
+
+
+                      
+                        <input type="text" placeholder="Buscar productos...">
+                        <button class="search-button">Buscar</button>
+
+                        <a href="checkout.html" class="cart-logo">
+                          <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="Carrito de compras" class="cart-icon">
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="barra-productos">
+      <ul class="producto-lista">
+          <li>
+              <div class="producto">
+                  <img src="https://petshops.com.co/298-large_default/kit-inicio.jpg" alt="Pipigel">
+                  <p class="nombre-producto">Productos de aseo</p>
+              </div>
+          </li>
+          <li>
+              <div class="producto">
+                  <img src="https://www.gordogs.com.co/wp-content/uploads/2020/05/pan%CC%83oleta-para-perro-skull-dog-amarilla-calavera-rock-and-roll-bandana-web-1-1.jpg" alt="pañoleta">
+                  <p class="nombre-producto">El mejor estilo</p>
+              </div>
+          </li>
+          <li>
+            <div class="producto">
+                  <img src="https://cdn.shopify.com/s/files/1/0070/7352/9920/products/TALCO-GATO_766x.jpg?v=1591229374" alt="talco">
+                  <p class="nombre-producto">Cuidalos con lo mejor</p>
+            </div>
+          </li>
+        
+      </ul>
+  </div>
+
+  <main>
+    <section>
+      <h2>Bienvenido a nuestra tienda de animales</h2>
+      <p>¡Aquí encontrarás todo lo que necesitas para tus mascotas!</p>
+    </section>
+    <section>
+      <h2>Mas vendidos</h2>
+      <ul class="product-list">
+        <li>
+          <img src="https://m.media-amazon.com/images/I/71NXsZlgxLL._AC_SL1500_.jpg" alt="Juguetes para mascotas">
+          <h3>Masticable para perro</h3>
+          <h6>US$5.28</h6>
+          <button class="buy-button" onclick="redireccionar('https://www.amazon.com/-/es/Petstages-juguete-masticable-alternativo-perro/dp/B0050BL6UW/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=384V58ZOF06Y0&keywords=juguetes%2Bmascotas&qid=1686109998&sprefix=juguetesmascotas%2Caps%2C126&sr=8-7&th=1');">Comprar</button>
+        </li>
+        <li>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_782491-MCO48324473150_112021-F.webp" alt="correa">
+          <h3>Correa De Paseo Perro</h3>
+          <h6>US$6,45 / US$3,21</h6>
+          <button class="buy-button" onclick="redireccionar('https://articulo.mercadolibre.com.co/MCO-835267691-correa-de-paseo-perro-10-metros-_JM#position=1&search_layout=stack&type=item&tracking_id=37c441a8-a1b1-4dae-9f6e-c7a32e59136d');">Comprar 10 metros</button>
+          <button class="buy-button" onclick="redireccionar('https://articulo.mercadolibre.com.co/MCO-853064775-correa-larga-45-metros-perro-gato-mascotas-seguridad-paseos-_JM#is_advertising=true&position=10&search_layout=stack&type=pad&tracking_id=37c441a8-a1b1-4dae-9f6e-c7a32e59136d&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=MjA2ODRiODItYTMwZC00YmIxLWE3MmYtNzEyODFiN2U5ZGEy');">Comprar 4.5 metros</button>
+        </li>
+        <li>
+          <img src="https://animalstop.com.co/wp-content/uploads/2019/04/pedigree-raza-peque%C3%B1a.jpg" alt="comida para mascota">
+          <h3>Pedigree Pequeño para perros</h3>
+          <h6>Existencia agotada</h6>
+          <button class="buy-button" onclick="redireccionar('https://www.amazon.com/-/es/Pedigree-Peque%C3%B1o-perros-Adultos-Alimentos/dp/B007ZZDJWY/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2AOGZR4AOLUVI&keywords=comida+para+perros&qid=1686110940&sprefix=comida%2520para%2520perro%2Caps%2C135&sr=8-1');">Comprar</button>
+        </li>
+        <li>
+          <img src="https://pañoletasapolo.com/wp-content/uploads/2021/10/Panoleta-Para-Mascotas-Flash-1.webp" alt="pañoleta">
+          <h3>Pañoletas para perro en 3 colores</h3>
+          <h6>US$3,06</h6>
+          <button class="buy-button" onclick="redireccionar('https://articulo.mercadolibre.com.co/MCO-1188422440-collar-graduable-con-panoleta-para-perro-y-gato-_JM#position=12&search_layout=stack&type=item&tracking_id=9dc5d57f-caff-4540-a562-aac2bfda8afa');">Comprar</button>
+        </li>
+      </ul>
+    </section>
+
+<section>
+<h2>Podria interesarte</h2>
+</section>
+
+<section>
+  <ul class="product-list">
+    <li>
+      <img src="https://http2.mlstatic.com/D_NQ_NP_658413-MCO28330144382_102018-O.webp" alt="correa profesional">
+      <h3>SparklyPets - Correa doble para perros con manos libres</h3>
+      <h6>US$39.95</h6>
+      <button class="buy-button" onclick="redireccionar('https://www.amazon.com/dp/B07YXK7ZFX/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=19c54ff640e91b792ccae3f68da548c8&content-id=amzn1.sym.cd95889f-432f-43a7-8ec8-833616493f4a%3Aamzn1.sym.cd95889f-432f-43a7-8ec8-833616493f4a&hsa_cr_id=4680708730501&pd_rd_plhdr=t&pd_rd_r=84d4ce69-d3c4-4952-8011-315319eaf53f&pd_rd_w=ipRcz&pd_rd_wg=4bqNA&qid=1686200412&ref_=sbx_be_s_sparkle_lsi4d_asin_0_img&sr=1-1-9e67e56a-6f64-441f-a281-df67fc737124');">Comprar</button>
+    </li>
+    <li>
+      <img src="https://petshops.com.co/298-large_default/kit-inicio.jpg" alt="Pipigel">
+      <h3>Kit de Inicio - 3 Productos (Pipigel + Popocatch + Morderoff)</h3>
+      <h6>Existencia agotada</h6>
+      <button class="buy-button" onclick="redireccionar('https://www.depelos.co/producto-para-perros/kit-de-inicio-3-productos-pipigel-popocatch-morderoff/922');">Comprar</button>
+    </li>
+    <li>
+      <img src="https://cf.shopee.com.co/file/6a615eb5e085d0fd79a170020e4cf800" alt="Peine">
+      <h3>Secador De Pelo Peine Para Mascotas 2 En 1 Portátil</h3>
+      <h6>US$10,31</h6>
+      <button class="buy-button" onclick="redireccionar('https://articulo.mercadolibre.com.co/MCO-608370062-secador-de-pelo-peine-para-mascotas-2-en-1-portatil-_JM#is_advertising=true&position=1&search_layout=stack&type=pad&tracking_id=2f2b2755-80ca-4e52-9dd2-a0df4cfd55fa&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=NDY3OWU1ODAtYWFkZC00YzNiLWFkYjUtNjAzODU3MDI3N2Q3');">Comprar</button>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Alimentacion</h2>
+  </section>
+  
+  <section>
+    <ul class="product-list">
+      <li>
+        <img src="https://m.media-amazon.com/images/I/61WdR9-T0ML._AC_SL1500_.jpg" alt="comederoext">
+        <h3>Comedero lento automático</h3>
+        <h6>US$59.99</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/autom%C3%A1ticos-dispensador-personalizable-alimentaci%C3%B3n-personalizado/dp/B0C2Z52GBF/ref=sr_1_23_sspa?adgrpid=97049604421&hvadid=602464256542&hvdev=c&hvlocphy=1029279&hvnetw=g&hvqmt=b&hvrand=7221763983318126019&hvtargid=kwd-325962707004&hydadcr=5018_13236891&keywords=alimento+para+perros&qid=1686404741&sr=8-23-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTVM2Q0xSVTY4UVBEJmVuY3J5cHRlZElkPUEwOTc3MzgyMlIySUtHSTc1NkZMSCZlbmNyeXB0ZWRBZElkPUEwMTYzNzIxMjNRTFlTNVJPWEIzQSZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://animalstop.com.co/wp-content/uploads/2019/04/pedigree-raza-peque%C3%B1a.jpg" alt="comida para mascota">
+        <h3>Pedigree Pequeño para perros</h3>
+        <h6>Existencia agotada</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/-/es/Pedigree-Peque%C3%B1o-perros-Adultos-Alimentos/dp/B007ZZDJWY/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2AOGZR4AOLUVI&keywords=comida+para+perros&qid=1686110940&sprefix=comida%2520para%2520perro%2Caps%2C135&sr=8-1');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://m.media-amazon.com/images/I/81Kc65Ni2dL._AC_SL1500_.jpg" alt="Alimt">
+        <h3>Nature's Recipe - 24 libras</h3>
+        <h6>Existencia agotada</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/-/es/Natures-Recipe-Comida-madura-cordero/dp/B08NCZWCJG/ref=sr_1_41?adgrpid=97049604421&hvadid=602464256542&hvdev=c&hvlocphy=1029279&hvnetw=g&hvqmt=b&hvrand=7221763983318126019&hvtargid=kwd-325962707004&hydadcr=5018_13236891&keywords=alimento+para+perros&qid=1686404741&sr=8-41');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://m.media-amazon.com/images/I/71QFJDcLudL._AC_SL1500_.jpg" alt="cuenco">
+        <h3>Soporte de cuenco francés de bambú para perros</h3>
+        <h6>US$45.00</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/peque%C3%B1os-medianos-comedero-inclinados-alimentos/dp/B0BZVTWWBC/ref=sr_1_29_sspa?adgrpid=97049604421&hvadid=602464256542&hvdev=c&hvlocphy=1029279&hvnetw=g&hvqmt=b&hvrand=7221763983318126019&hvtargid=kwd-325962707004&hydadcr=5018_13236891&keywords=alimento+para+perros&qid=1686404741&sr=8-29-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTVM2Q0xSVTY4UVBEJmVuY3J5cHRlZElkPUEwOTc3MzgyMlIySUtHSTc1NkZMSCZlbmNyeXB0ZWRBZElkPUEwODU5MDIxMlhHVUNOTVBMRUdIQiZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=');">Comprar</button>
+      </li>
+    </ul>
+  </section>
+  
+  <section>
+    <ul class="product-list">
+      <li>
+        <img src="https://m.media-amazon.com/images/I/51NKUx6BWhL._AC_SL1000_.jpg" alt="comi">
+        <h3>Ultimate pet nutrition nutra Complete (cerdo, 16 onzas)</h3>
+        <h6>US$59.95</h6>
+        <button class="buy-button" onclick="redireccionar('https://ultimatepetnutrition.com/product/nutra-complete/');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://colombia.gupet.co/wp-content/uploads/2021/06/Pouch-Pro-Plan-Gato-Adulto-Pollo.jpg" alt="gatos">
+        <h3>Pro Plan para gato adulto sabor pollo en sobre</h3>
+        <h6>US$7.2</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.mercadolibre.com.co/alimento-pro-plan-optirenal-sterilized-para-gato-adulto-sabor-pollo-en-sobre-de-85g/p/MCO14027425?pdp_filters=category:MCO1077#searchVariation=MCO14027425&position=8&search_layout=stack&type=product&tracking_id=ba342015-64a1-4b97-9afe-1de145c36e38');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://www.agrocampo.com.co/media/catalog/product/cache/d51e0dc10c379a6229d70d752fc46d83/1/1/111110730_ed-min.jpg" alt="agility gold">
+        <h3>Agility gold gatos adultos 7kg</h3>
+        <h6>US$39,01</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.mercadolibre.com.co/alimento-agility-gold-mantenimiento-gatos-gatos-para-gato-adulto-sabor-mix-en-bolsa-de-7kg/p/MCO18477727?pdp_filters=category:MCO1077#searchVariation=MCO18477727&position=11&search_layout=stack&type=product&tracking_id=ba342015-64a1-4b97-9afe-1de145c36e38');">Comprar</button>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Aseo y estilo</h2>
+    <ul class="product-list">
+      <li>
+        <img src="https://petshops.com.co/298-large_default/kit-inicio.jpg" alt="Pipigel">
+      <h3>Kit de Inicio - 3 Productos (Pipigel + Popocatch + Morderoff)</h3>
+      <h6>Existencia agotada</h6>
+      <button class="buy-button" onclick="redireccionar('https://www.depelos.co/producto-para-perros/kit-de-inicio-3-productos-pipigel-popocatch-morderoff/922');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://m.media-amazon.com/images/I/61oCZv4cXcL._AC_SL1000_.jpg" alt="guante">
+        <h3>Guante removedor de pelo de mascotas</h3>
+        <h6>US$8.99</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/-/es/removedor-mascotas-guante-mascotas-Guante-Perfecto-paquete/dp/B01N66Y1IK/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1A20F20L2RRT9&keywords=productos+de+aseo+para+mascotas&qid=1686463457&sprefix=productos+de+aseo+para+mascota%2Caps%2C124&sr=8-3');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://m.media-amazon.com/images/I/712XzgoAkdL._AC_SL1500_.jpg" alt="maquina">
+        <h3>Cortadora inteligente para perros</h3>
+        <h6>US$119.98</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/inteligente-inal%C3%A1mbrica-velocidades-recargable-profesional/dp/B0BPC85HNS/ref=sxin_16_pa_sp_search_thematic_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.e8a574bf-253e-499c-93e8-6d35a96f50eb%3Aamzn1.sym.e8a574bf-253e-499c-93e8-6d35a96f50eb&crid=1A20F20L2RRT9&cv_ct_cx=pet+grooming+products&keywords=productos+de+aseo+para+mascotas&pd_rd_i=B0BPC85HNS&pd_rd_r=250ca645-1605-49b3-a8f4-f8e96af24378&pd_rd_w=kx3tC&pd_rd_wg=neLRj&pf_rd_p=e8a574bf-253e-499c-93e8-6d35a96f50eb&pf_rd_r=QDR732AZ7NNNW8Z015JB&qid=1686463457&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=productos+de+aseo+para+mascota%2Caps%2C124&sr=1-4-be8d29ef-546e-4f38-a2d4-6d64d539234f-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE0U1JMRDZDRlpLWiZlbmNyeXB0ZWRJZD1BMDYyMTc5NU41TE0xQ09JQVVKUyZlbmNyeXB0ZWRBZElkPUEwNzk4Njk1MkhWR0NKNFRNMFBCRSZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://m.media-amazon.com/images/I/71fN75kIuwL._AC_SL1500_.jpg" alt="perf">
+        <h3>Spray acondicionador de avena, aseo para perros y gatos</h3>
+        <h6>US$12.82</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/-/es/acondicionador-sensible-equilibrado-parabenos-fabricado/dp/B000TNARXS/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1A20F20L2RRT9&keywords=productos+de+aseo+para+mascotas&qid=1686463457&sprefix=productos+de+aseo+para+mascota%2Caps%2C124&sr=8-7');">Comprar</button>
+      </li>
+    </ul>
+  </section>
+
+<section>
+    <ul class="product-list">
+      <li>
+        <img src="https://pañoletasapolo.com/wp-content/uploads/2021/10/Panoleta-Para-Mascotas-Flash-1.webp" alt="pañoleta">
+          <h3>Pañoletas para perro en 3 colores</h3>
+          <h6>US$3,06</h6>
+          <button class="buy-button" onclick="redireccionar('https://articulo.mercadolibre.com.co/MCO-1188422440-collar-graduable-con-panoleta-para-perro-y-gato-_JM#position=12&search_layout=stack&type=item&tracking_id=9dc5d57f-caff-4540-a562-aac2bfda8afa');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://cf.shopee.com.co/file/6a615eb5e085d0fd79a170020e4cf800" alt="Peine">
+      <h3>Secador De Pelo Peine Para Mascotas 2 En 1 Portátil</h3>
+      <h6>US$10,31</h6>
+      <button class="buy-button" onclick="redireccionar('https://articulo.mercadolibre.com.co/MCO-608370062-secador-de-pelo-peine-para-mascotas-2-en-1-portatil-_JM#is_advertising=true&position=1&search_layout=stack&type=pad&tracking_id=2f2b2755-80ca-4e52-9dd2-a0df4cfd55fa&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=NDY3OWU1ODAtYWFkZC00YzNiLWFkYjUtNjAzODU3MDI3N2Q3');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://m.media-amazon.com/images/I/51GLDHVniZL._AC_SL1002_.jpg" alt="imper">
+        <h3>Impermeable ajustable para perros</h3>
+        <h6>US$20.98</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/Mikayoo-Impermeable-ajustable-capucha-reflejante/dp/B07G545LHC/ref=sr_1_1_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2833MEGQPAT9&keywords=ropa+para+perros&qid=1686463575&sprefix=ropa+para+perro%2Caps%2C128&sr=8-1-spons&psc=1&smid=AOWQP06DAOOHT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFlMUEFVQTFXNFZHJmVuY3J5cHRlZElkPUEwNTkxNTQxMzBUQkhYQzFZSTJaSCZlbmNyeXB0ZWRBZElkPUEwMjAyNDMzUzFBNzRDSFFLRDVHJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==');">Comprar</button>
+      </li>
+      <li>
+        <img src="https://m.media-amazon.com/images/I/71jh-YCw4CL._AC_SL1500_.jpg" alt="camisa">
+        <h3>piezas de camisas polo con cuello para perros pequeños</h3>
+        <h6>US$11.99</h6>
+        <button class="buy-button" onclick="redireccionar('https://www.amazon.com/-/es/DOGGYZSTYLE-peque%C3%B1os-medianos-transpirable-cachorros/dp/B07H9M5P5K/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2833MEGQPAT9&keywords=ropa+para+perros&qid=1686463575&sprefix=ropa+para+perro%2Caps%2C128&sr=8-2');">Comprar</button>
+      </li>
+    </ul>
+  </section>
+
+
+  </main>
+
+
+  <footer>
+    <p class="footer-text">&copy; 2023 Fun Animals. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

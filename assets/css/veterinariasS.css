@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .service {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 3; 
+    grid-row: 2; 
+}
+  .photo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .Csv
+  {
+    text-align: center;
+    margin: 0 auto;
+    height: 60px;
+    border: 2px solid black; 
+    padding: 10px; 
+    width: 200px;
+    background-color: #46A2FD;
+  }
+  .Sc {
+    text-align: center;
+    color: white;
+  }

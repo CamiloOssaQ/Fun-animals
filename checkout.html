@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/checkout.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+          <button class="proceed"><svg class="sendicon" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+      </svg></button>
+         <img src="https://seeklogo.com/images/V/VISA-logo-62D5B26FE1-seeklogo.com.png" class="logo-card">
+       <label>Numero de la tarjeta:</label>
+       <input id="user" type="text" class="input cardnumber"  placeholder="xxxx xxxx xxxx xxxx">
+       <label>Nombre del titular:</label>
+       <input class="input name"  placeholder="Edgar Pérez">
+       <label class="toleft">CCV:</label>
+       <input class="input toleft ccv" placeholder="321">
+        </div>
+        <div class="receipt">
+          <div class="col"><p>Precio final:</p>
+          <h2 class="cost">$400</h2><br>
+          <p>Nombre vendedor:</p>
+          <h2 class="seller">Fun animals</h2>
+          </div>
+          <div class="col">
+            <p>Objetos en carrito:</p>
+            <h3 class="bought-items">Cortadora inteligente para perros</h3>
+            <p class="bought-items description">Cortador de pelo para perros</p>
+            <p class="bought-items price">$120 (Sin descuento)</p><br>
+            <h3 class="bought-items">Spray acondicionador de avena, aseo para perros y gatos (2kg)</h3>
+            <p class="bought-items description">Perfecto para un baño</p>
+            <p class="bought-items price">$80 (Sin descuento)</p><br>
+          </div>
+          <p class="comprobe">¡Cuando se haya enviado tu producto sera enviado a tu correo!</p>
+          <p class="comprobe">Gracias por confiar en nosotros</p>
+        </div>
+        <div class="cancelar">
+            <a href="tienda.html" class="btn-neon">
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+                <span id="span4"></span>
+                Cancelar
+        </a>
+        </div>
+      </div>
+</body>
+</html>
